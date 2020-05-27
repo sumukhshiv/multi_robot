@@ -8,12 +8,24 @@
       <uri>model://sun</uri>
     </include>
     <include>
-      <uri>model://byu</uri>
+      <uri>model://safer</uri>
+        <pose>2.5 2.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://charging_station</uri>
         <pose>1.0 1.0 0 0 0 0</pose>
     </include>
     <include>
-      <uri>model://byu</uri>
+      <uri>model://charging_station</uri>
         <pose>2.0 2.0 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://safe</uri>
+        <pose>2.5 2.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://brick_box</uri>
+        <pose>3.5 1.5 0 0 0 0</pose>
     </include>
   </world>
 </sdf>
