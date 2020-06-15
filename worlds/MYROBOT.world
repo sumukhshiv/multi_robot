@@ -9,8 +9,37 @@
     </include>
     <include>
       <uri>model://safer</uri>
-        <pose>2.5 2.5 0 0 0 0</pose>
+        <pose>2.5 -5.0 0 0 0 0</pose>
     </include>
+    <include>
+      <uri>model://safer</uri>
+        <pose>7.5 -5.0 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://safer</uri>
+        <pose>-2.5 -5.0 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://safer</uri>
+        <pose>-7.5 -5.0 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://safer</uri>
+        <pose>-2.5 5.0 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://safer</uri>
+        <pose>-7.5 5.0 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://safer</uri>
+        <pose>7.5 5.0 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://unsafe</uri>
+        <pose>2.5 7.5 0 0 0 0</pose>
+    </include>
+
     <include>
       <uri>model://charging_station</uri>
         <pose>1.0 1.0 0 0 0 0</pose>
@@ -19,13 +48,40 @@
       <uri>model://charging_station</uri>
         <pose>2.0 2.0 0 0 0 0</pose>
     </include>
+
     <include>
       <uri>model://safe</uri>
-        <pose>2.5 2.5 0 0 0 0</pose>
+        <pose>2.5 0.25 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://safe</uri>
+        <pose>2.5 4.75 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://safe</uri>
+        <pose>4.75 2.5 0 0 0 1.5708</pose>
+    </include>
+    <include>
+      <uri>model://safe</uri>
+        <pose>0.25 2.5 0 0 0 1.5708</pose>
+    </include>
+
+    <!-- <include>
+      <uri>model://sjtu_drone</uri>
+      <pose>0 0 0 0 0 0</pose>
+    </include> -->
+
+    <include>
+      <uri>model://brick_box</uri>
+        <pose>2.5 0.5 0 0 0 0</pose>
     </include>
     <include>
       <uri>model://brick_box</uri>
-        <pose>3.5 1.5 0 0 0 0</pose>
+        <pose>2.5 3.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://brick_box</uri>
+        <pose>1.5 2.5 0 0 0 0</pose>
     </include>
   </world>
 </sdf>
