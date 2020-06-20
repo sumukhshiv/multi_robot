@@ -3,7 +3,7 @@
   <world name="default">
     <gui>
       <camera name="user_camera">
-        <pose>3.75 3.75 15 0 1.5708 1.5708</pose>
+        <pose>2.5 2.5 10 0 1.5708 1.5708</pose>
       </camera>
     </gui>
     <include>
@@ -12,36 +12,25 @@
     <include>
       <uri>model://sun</uri>
     </include>
-
     <include>
       <uri>model://sjtu_drone</uri>
-      <pose>3.75 3.75 0 0 0 0</pose>
+      <pose>0.0 0.0 0 0 0 0</pose>
     </include>
-
     <include>
       <uri>model://grey_wall</uri>
-        <pose>3.75 0 0 0 0 0</pose>
+        <pose>2.5 0 0 0 0 0</pose>
     </include>
-
     <include>
       <uri>model://grey_wall</uri>
-        <pose>3.75 7.5 0 0 0 0</pose>
+        <pose>2.5 5 0 0 0 0</pose>
     </include>
-
     <include>
       <uri>model://grey_wall</uri>
-        <pose>3.75 0 0 0 0 0</pose>
+        <pose>0 2.5 0 0 0 1.5708</pose>
     </include>
-
     <include>
       <uri>model://grey_wall</uri>
-        <pose>0 3.75 0 0 0 1.5708</pose>
+        <pose>5 2.5 0 0 0 1.5708</pose>
     </include>
-
-    <include>
-      <uri>model://grey_wall</uri>
-        <pose>7.5 3.75 0 0 0 1.5708</pose>
-    </include>
-
   </world>
 </sdf>

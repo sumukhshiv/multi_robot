@@ -65,12 +65,6 @@
       <uri>model://safe</uri>
         <pose>0.25 2.5 0 0 0 1.5708</pose>
     </include>
-
-    <!-- <include>
-      <uri>model://sjtu_drone</uri>
-      <pose>0 0 0 0 0 0</pose>
-    </include> -->
-
     <include>
       <uri>model://brick_box</uri>
         <pose>2.5 0.5 0 0 0 0</pose>
